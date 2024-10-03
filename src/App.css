@@ -11,3 +11,11 @@
     animation: bounce-custom 2s ease-in-out infinite;
   }
   
+/*Polka dots */
+  .polka {
+    background-image: 
+      radial-gradient(#d6c5ae48 50%, transparent 50%);
+    background-position: 3px 3px;
+    background-size: 6px 6px;
+    background-color: #C5A981;
+  }

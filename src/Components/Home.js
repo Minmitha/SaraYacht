@@ -9,11 +9,13 @@ export function Home() {
                 <div className="h-full w-full">
                     <div className="relative h-screen">
                         <img src="./images/uniqueyacht.webp" className="h-full w-full object-cover" alt="Yacht Background" />
-                        <div className="absolute inset-x-0 bottom-5 flex flex-col justify-center items-center text-center text-white px-4">
+                        <div className="absolute inset-0 bg-black/50"></div>
+
+                        <div className="absolute inset-x-0 bottom-44 flex flex-col justify-center items-center text-center text-white px-4">
                             <p className="text-2xl font-bold md:text-6xl">Discover the Ultimate Yacht Experience</p>
                             <p className="text-lg md:text-5xl mt-4">Book your dream yacht adventure today!</p>
                             <div className="lg:mt-10 mt-10">
-                                <button className="relative px-6 py-2 text-[15px] font-bold text-white bg-transparent border-[0.25em] border-white hover:bg-white hover:text-[#C5A981]">
+                                <button className="relative px-6 py-2 text-[15px] text-white bg-transparent border-[0.25em] border-white hover:bg-white hover:text-[#C5A981]">
                                     Begin Your Sailing Adventure
                                 </button>
                             </div>
@@ -23,7 +25,7 @@ export function Home() {
                     {/* Icon Section */}
                     <div className="flex bg-[#2B3A42] items-center justify-center flex-wrap lg:flex-nowrap">
                         <div className="flex items-center">
-                            <hr className="w-px h-24 lg:h-40 bg-[#515E64] mx-4 lg:mx-10 my-4 lg:my-10" />
+                            <hr className="w-px h-24 lg:h-52 bg-[#515E64] mx-4 lg:mx-10 my-4 lg:my-10" />
                             <div className="flex flex-col items-center justify-center my-4">
                                 <img src="./images/roman.svg" className="w-12 h-16 lg:w-24 lg:h-28 mb-4" />
                                 <div className="text-sm lg:text-xl text-[#FFFFF3] hover:text-[#C5A981]">
@@ -34,7 +36,7 @@ export function Home() {
                         </div>
 
                         <div className="flex items-center">
-                            <hr className="w-px h-24 lg:h-40 bg-[#515E64] mx-4 lg:mx-10 my-4 lg:my-10" />
+                            <hr className="w-px h-24 lg:h-52 bg-[#515E64] mx-4 lg:mx-10 my-4 lg:my-10" />
                             <div className="flex flex-col items-center justify-center">
                                 <img src="./images/map.svg" className="w-12 h-16 lg:w-24 lg:h-28 mb-4" />
                                 <div className="text-sm lg:text-xl text-[#FFFFF3] hover:text-[#C5A981]">
@@ -45,7 +47,7 @@ export function Home() {
                         </div>
 
                         <div className="flex items-center">
-                            <hr className="w-px h-24 lg:h-40 bg-[#515E64] mx-4 lg:mx-10 my-4 lg:my-10" />
+                            <hr className="w-px h-24 lg:h-52 bg-[#515E64] mx-4 lg:mx-10 my-4 lg:my-10" />
                             <div className="flex flex-col items-center justify-center">
                                 <img src="./images/compass1.svg" className="w-12 h-16 lg:w-24 lg:h-28 mb-4" />
                                 <div className="text-sm lg:text-xl text-[#FFFFF3] hover:text-[#C5A981]">
@@ -56,7 +58,7 @@ export function Home() {
                         </div>
 
                         <div className="flex items-center">
-                            <hr className="w-px h-24 lg:h-40 bg-[#515E64] mx-4 lg:mx-10 my-4 lg:my-10" />
+                            <hr className="w-px h-24 lg:h-52 bg-[#515E64] mx-4 lg:mx-10 my-4 lg:my-10" />
                             <div className="flex flex-col items-center justify-center">
                                 <img src="./images/wheel.svg" className="w-12 h-16 lg:w-24 lg:h-28 mb-4" />
                                 <div className="text-sm lg:text-xl text-[#FFFFF3] hover:text-[#C5A981]">
@@ -68,7 +70,7 @@ export function Home() {
                     </div>
 
                     {/* Convinced Section */}
-                    <div className="bg-[#C5A981] flex items-center justify-center py-3">
+                    <div className="polka flex items-center justify-center py-3">
                         <div className="flex flex-col items-center text-center max-w-7xl p-8">
                             <p className="text-white font-semibold text-2xl lg:text-3xl mb-4">Already Convinced?</p>
                             <p className="text-white text-md lg:text-xl">
