@@ -3,7 +3,7 @@ import { Link} from "react-router-dom";
 export function Navbar() {
     return (
         <>
-            <nav class="bg-[#E3ECFB] dark:bg-gray-900 fixed w-full z-10 top-0 start-0">
+            <nav class="bg-transparent lg:bg-[#E3ECFB] dark:bg-gray-900 fixed w-full z-10 top-0 start-0">
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <img src="./images/assets/logoyacht.png" class="h-10  self-center" alt="web Logo" />
                     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
