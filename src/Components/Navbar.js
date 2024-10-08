@@ -3,13 +3,10 @@ import { Link} from "react-router-dom";
 export function Navbar() {
     return (
         <>
-            <nav class="bg-transparent lg:bg-[#E3ECFB] dark:bg-gray-900 fixed w-full z-10 top-0 start-0">
+            <nav class="bg-transparent lg:bg-[#253238] dark:bg-gray-900 fixed w-full z-10 top-0 start-0">
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <img src="./images/assets/logoyacht.png" class="h-10  self-center" alt="web Logo" />
-                    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                        {/* <div className="hidden lg:block">
-                            <Button text="Get Started" link="/" />
-                        </div> */}
+                    <img src="./images/assets/logofinal.png" class="h-10  self-center" alt="web Logo" />
+                    <div class="flex md:order-1 space-x-3 md:space-x-0 rtl:space-x-reverse">
                         <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                             <span class="sr-only">Open main menu</span>
                             <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -18,30 +15,43 @@ export function Navbar() {
                         </button>
                     </div>
                     <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-                        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:gap-16 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:gap-8 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                             <li>
                                 <Link
                                     to="/"
-                                    class="block py-2 px-3 text-xl font-bold bg-blue-700 rounded md:bg-transparent md: text-[#787892] md:p-0 md:dark:text-[#D9D9D9]" aria-current="page">Home
+                                    class="block py-2 px-3 text-xl font-bold bg-blue-700 rounded md:bg-transparent md: text-white md:p-0 md:dark:text-[#D9D9D9]" aria-current="page">Home
                                 </Link>
                             </li>
                             <li>
                                 <Link
                                     to="/aboutus"
-                                    class="block py-2 px-3  text-xl font-bold  text-[#787892] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 md:dark:hover:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About
+                                    class="block py-2 px-3  text-xl font-bold  text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 md:dark:hover:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About
                                 </Link>
                             </li>
                             <li>
                                 <Link
                                     to="/"
-                                    class="block py-2 px-3  text-xl font-bold  text-[#787892] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 md:dark:hover:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Yachts
+                                    class="block py-2 px-3  text-xl font-bold  text-white  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 md:dark:hover:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Yacht Charter
                                 </Link>
 
                             </li>
                             <li>
                                 <Link
                                     to="/"
-                                    class="block py-2 px-3  text-xl font-bold  text-[#787892] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 md:dark:hover:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact
+                                    class="block py-2 px-3  text-xl font-bold  text-white  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 md:dark:hover:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Book Now
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="/"
+                                    class="block py-2 px-3  text-xl font-bold  text-white  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 md:dark:hover:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Sailing Routes
+                                </Link>
+
+                            </li>
+                            <li>
+                                <Link
+                                    to="/"
+                                    class="block py-2 px-3  text-xl font-bold  text-white  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 md:dark:hover:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact
                                 </Link>
                             </li>
                         </ul>
